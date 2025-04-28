@@ -9,5 +9,9 @@ module "vpc" {
   cluster_name         = var.cluster_name
 }
 
+module "route53" {
+  source      = "./modules/route53"
+  domain_name = "domain.com"
+  vpc_id      = module.vpc.vpc_id
 
-
+}
