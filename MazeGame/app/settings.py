@@ -1,0 +1,20 @@
+import pygame
+
+pygame.init()
+
+display = pygame.display.Info()  # size of the screen \/
+MONITOR_WIDTH, MONITOR_HEIGHT = display.current_w, display.current_h
+
+WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 960
+WINDOW_SIZE = WINDOW_WIDTH, WINDOW_HEIGHT
+
+TILE_SIZE = 16
+SIZE_X = 32
+SIZE_Y = 24
+
+SURFACE_WIDTH, SURFACE_HEIGHT = SIZE_X * TILE_SIZE, SIZE_Y * TILE_SIZE
+SURFACE_SIZE = SURFACE_WIDTH, SURFACE_HEIGHT
+
+HELP_AMOUNT = 40
+COIN_AMOUNT = 10
+BAT_AMOUNT = 3.0

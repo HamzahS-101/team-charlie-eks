@@ -39,3 +39,11 @@ terraform.rc
 .terraform.lock.hcl
 
 .DS_Store
+
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
