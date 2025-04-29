@@ -41,3 +41,11 @@ variable "cluster_name" {
   type        = string
   default     = "team-charlie"
 }
+
+#Route 53
+
+variable "domain_name" {
+  description = "Name of the domain"
+  type        = string
+  default     = "domain.com"
+}
